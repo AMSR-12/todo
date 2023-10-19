@@ -8,14 +8,14 @@
     <script src="valiform.js" defer></script>
 </head>
 <body>
-  <form action="login.html" onsubmit="return validateInputs()" id="form">
+  <form action="login.html"  id="form">
         <div class="container">
           <div class="input-group">
          
           <h1 class="h1">Sign Up</h1>
           
           <label for="username"><b>UserName</b></label><br>
-          <input type="text"  id="username"  name="email">
+          <input type="text"  id="username"  name="email" >
           <div class="error"></div>
       <br>
     
@@ -32,7 +32,7 @@
           <br></div>
           <div class="input-group">
           <label for="psw-repeat"><b>confirm Password</b></label><br>
-          <input type="password" id="cpassword" name="cpassword" > 
+          <input type="password" id="cpassword" name="cpassword"> 
           <div class="error"></div>
           <br>
           </div>
@@ -41,7 +41,8 @@
           </label>
           <br>
   
-            <button type="submit" class="btn">Submit</button>
+            <button type="submit" class="btn" >submit</button><br>
+              <button class="login"><a class="login" href="login.html">Login</a>
             
           </div>
         </div></div>
